@@ -1,0 +1,530 @@
+        .firstdiv {
+            word-spacing: 10px;
+            border: #0099cc solid;
+            width: 100%;
+            height: 50px;
+            padding: 10px;
+            background-color: #0099cc;
+            word-spacing: 10px;
+            text-align: center;
+        }
+        
+        .fa {
+            color: white;
+        }
+        
+        .btn {
+            color: #0099cc;
+            border: #0099cc;
+        }
+        
+        .btn:hover {
+            background-color: #0099cc;
+            color: white;
+        }
+        
+        .btn:active {
+            background-color: #0099cc !important;
+            color: white !important;
+        }
+        /* .carousel-inner {
+        width: 100%;
+        height: 600px;
+    }
+    
+    .d-block {
+        width: 100%;
+        height: 600px;
+    }
+     */
+        
+        .form-style-10 {
+            width: 450px;
+            padding: 30px;
+            margin: 40px auto;
+            background: #FFF;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+            -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+            -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+            width: 80%;
+            margin-bottom: 10px !important;
+        }
+        
+        .form-style-10 .inner-wrap {
+            padding: 30px;
+            background: #F8F8F8;
+            border-radius: 6px;
+        }
+        
+        .form-style-10 h1 {
+            background: #0099cc;
+            padding: 20px 30px 15px 30px;
+            margin: -30px -30px 30px -30px;
+            border-radius: 10px 10px 0 0;
+            -webkit-border-radius: 10px 10px 0 0;
+            -moz-border-radius: 10px 10px 0 0;
+            color: #fff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+            font: normal 30px 'Bitter', serif;
+            -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+            -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+            box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+            border: 1px solid#0099cc;
+        }
+        
+        .form-style-10 h1>span {
+            display: block;
+            margin-top: 2px;
+            font: 13px Arial, Helvetica, sans-serif;
+        }
+        
+        .form-style-10 label {
+            display: block;
+            font: 13px Arial, Helvetica, sans-serif;
+            color: #888;
+            margin-bottom: 15px;
+        }
+        
+        .form-style-10 input[type="text"],
+        .form-style-10 input[type="date"],
+        .form-style-10 input[type="datetime"],
+        .form-style-10 input[type="email"],
+        .form-style-10 input[type="number"],
+        .form-style-10 input[type="search"],
+        .form-style-10 input[type="time"],
+        .form-style-10 input[type="url"],
+        .form-style-10 input[type="password"],
+        .form-style-10 textarea,
+        .form-style-10 select {
+            display: block;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            width: 100%;
+            padding: 8px;
+            border-radius: 6px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border: 2px solid #fff;
+            box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+            -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+            -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+            background-color: #0099cc;
+        }
+        
+        .form-style-10 .section {
+            font: normal 20px 'Bitter', serif;
+            color: #0099cc;
+            margin-bottom: 5px;
+        }
+        
+        .form-style-10 .section span {
+            background: #0099cc;
+            padding: 5px 10px 5px 10px;
+            position: absolute;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border: 4px solid #fff;
+            font-size: 14px;
+            margin-left: -45px;
+            color: #fff;
+            margin-top: -3px;
+        }
+        
+        .form-style-10 input[type="button"],
+        .form-style-10 input[type="submit"] {
+            background: #0099cc;
+            padding: 8px 20px 8px 20px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            color: #fff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+            font: normal 30px 'Bitter', serif;
+            -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+            -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+            box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+            border: 1px solid #0099cc;
+            font-size: 15px;
+        }
+        
+        .form-style-10 input[type="button"]:hover,
+        .form-style-10 input[type="submit"]:hover {
+            background: #0099cc;
+            -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+            -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+            box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+        }
+        
+        .form-style-10 .privacy-policy {
+            float: right;
+            width: 250px;
+            font: 12px Arial, Helvetica, sans-serif;
+            color: #4D4D4D;
+            margin-top: 10px;
+            text-align: right;
+        }
+        
+        .rf {
+            background-color: white;
+        }
+        
+        .imp {
+            text-align: center;
+            font-size: 80px;
+            font-weight: bold;
+            color: #0099cc;
+        }
+        
+        .abtus {
+            text-align: center;
+        }
+        
+        .container {
+            color: white;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0099cc;
+            border: solid;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        */ .bb {
+            color: white;
+            font-size: 70px;
+        }
+        
+        .responsive {
+            width: 100%;
+            height: auto;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        * input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        
+        label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
+        
+        input[type=submit] {
+            background-color: #0099cc;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #0099cc;
+        }
+        
+        */ .container {
+            border-radius: 5px;
+            background-color: #0099cc;
+            padding: 20px;
+        }
+        
+        */ .col-25 {
+            float: left;
+            width: 25%;
+            margin-top: 6px;
+        }
+        
+        .col-75 {
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        
+        @media screen and (max-width: 600px) {
+            .col-25,
+            .col-75,
+            input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+        
+        .bon {
+            width: 100%;
+            color: #0099cc;
+            background-color: white;
+            font-size: small;
+        }
+        
+        .ccformfield {
+            font-size: small;
+        }
+        
+        .container {
+            border: solid;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .menu {
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+        
+        .menu a {
+            background-color: #e5e5e5;
+            padding: 8px;
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+            color: black;
+        }
+        
+        .main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+        }
+        
+        .right {
+            background-color: #e5e5e5;
+            float: left;
+            width: 20%;
+            padding: 15px;
+            margin-top: 7px;
+            text-align: center;
+        }
+        
+        @media only screen and (max-width:620px) {
+            /* For mobile phones: */
+            .menu,
+            .main,
+            .right {
+                width: 100%;
+            }
+        }
+        
+        .menu {
+            border: #0099cc solid;
+            background-color: #0099cc!important;
+            color: white;
+            font-size: xx-large;
+        }
+        
+        .main {
+            border: #0099cc solid;
+            background-color: #0099cc!important;
+            color: white;
+            font-size: larger;
+        }
+        
+        .right {
+            border: solid;
+        }
+        
+        .about {
+            border: white solid;
+            background-color: white !important;
+        }
+        
+        * {
+            font-family: ayan;
+        }
+        
+        @font-face {
+            font-family: ayan;
+            src: url(Karma-Regular.ttf);
+        }
+        
+        .cc {
+            color: whitesmoke !important;
+            background-color: gray !important;
+        }
+        
+        .jumbotron {
+            color: gray;
+            background-color: whitesmoke;
+            font-weight: bold;
+        }
+        
+        .col-sm-4 {
+            margin: 30px;
+            color: gray;
+            background-color: white;
+            box-shadow: 2px 2px 15px gray;
+        }
+        
+        .aaa:hover {
+            background-color: #0099cc !important;
+        }
+        
+        .file {
+            background-color: #0099cc;
+            color: white;
+            width: 100%;
+            height: 35px;
+            border-radius: 3px;
+        }
+        
+        .container-xl {
+            color: white;
+            border: white solid;
+            margin-top: 10px;
+            background-color: #0099cc;
+        }
+        
+        input[type=reset] {
+            background-color: #0099cc;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: left;
+        }
+        
+        .container-lg {
+            text-align: center;
+            font-size: xx-large;
+            color: #0099cc;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .aona {
+            text-align: center;
+            width: 100%;
+            color: white !important;
+            background-color: white !important;
+        }
+        
+        body {
+            background-color: whitesmoke;
+        }
+        
+        .fa {
+            background-color: #0099cc;
+        }
+        
+        .w3-rest w3-container w3-green {
+            box-shadow: 2px 2px 15px gray;
+        }
+        
+        .saqlain {
+            background-color: #0099cc;
+            padding: 20px;
+            float: left;
+            width: 20%;
+            font-size: x-large;
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+            /* The width is 20%, by default */
+        }
+        
+        .hunain {
+            background-color: #f1f1f1;
+            padding: 20px;
+            float: left;
+            width: 98%;
+            font-size: large;
+            box-shadow: 2px 2px 15px gray;
+            color: gray;
+            margin: 10px;
+            margin-top: 10px;
+            /* The width is 60%, by default */
+        }
+        /* Use a media query to add a break point at 800px: */
+        
+        @media screen and (max-width:800px) {
+            .saqlain,
+            .hunain {
+                width: 100%;
+                /* The width is 100%, when the viewport is 800px or smaller */
+            }
+        }
+        
+        .w3-container {
+            color: white !important;
+            background-color: #0099cc !important;
+            height: 150px;
+            text-align: center;
+            padding: 15px;
+            margin-top: 10px;
+        }
+        
+        .w3-third {
+            box-shadow: 2px 2px 15px gray;
+        }
+        
+        .hassan {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: gray;
+            text-align: center;
+        }
+        
+        .mufs {
+            background-color: #0099cc;
+            font-weight: bolder;
+            color: white;
+            text-align: center;
+        }
+        
+        .iphone {
+            text-align: center;
+        }
+        
+        .hair {
+            background-color: white;
+            margin-bottom: 20px;
+        }
+        
+        .nain {
+            background-color: #0099cc;
+            color: white;
+            box-shadow: 2px 2px 15px gray;
+        }
+        
+        .last {
+            text-align: center;
+            background-color: gray;
+            color: whitesmoke;
+            padding: 5px;
+            margin-top: 510px;
+            height: 50px;
+        }
+        
+        .forab {
+            margin-top: 420px;
+            text-align: center;
+            background-color: gray;
+            color: whitesmoke;
+            padding: 5px;
+            height: 50px;
+        }
